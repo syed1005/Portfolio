@@ -6,31 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/Navbar.module.css">
 </head>
 
 <body>
-    <main>
+    <main class="container">
 
         <!-- Navbar -->
         <nav>
             <!-- right content -->
-            <div>SFA</div>
+            <div class="rightContent">SFA</div>
 
             <!-- middle content -->
-            <div>
-                Home
-                About
-                Skills
-                Projects
-                Experience
-                Achievements
-                Blogs
-                Contact
+            <div class="middleContent">
+                <div>Home</div>
+                <div>About</div>
+                <div>Blogs</div>
+                <div>Contact</div>
             </div>
 
             <!-- left content -->
-            <div>
-                <button>Contact Me</button>
+            <div class="leftContent">
+                <button class="btnContact">Contact Me</button>
             </div>
         </nav>
         <!-- Section 1 Hero Section -->
@@ -44,30 +41,37 @@
                 <button>Contact Me</button>
             </div>
             <div>
-                <img src="https://img.logo.dev/name/reactjs?token=pk_Wd-xpmBPSeKL7MFMTNssDw&retina=true" alt="ReactJs logo" />
+                <img src="https://img.logo.dev/name/reactjs?token=pk_Wd-xpmBPSeKL7MFMTNssDw&retina=true"
+                    alt="ReactJs logo" />
             </div>
         </section>
-        
+
         <!-- Section 2 About Me -->
         <section>
-            <header>
-                <h2>About Me</h2>
-            </header>
-            <img src="Images/my_pic.jpg" alt="my-pic" height="250px">
-            <p>I am a Full Stack Developer and Tech Lead with experience building scalable web applications, CRM
-                systems, vendor management platforms, and on-demand service marketplaces. I specialize in React,
-                Next.js, Node.js, Express, MongoDB, Django, and cloud deployment.</p>
-            <p>2+ years of experience</p>
-            <p>I am currently working in Revive Venture Pvt. Ltd.</p>
-            <p>Leadership Experience</p>
+            <div>
+                <header>
+                    <h2>About Me</h2>
+                </header>
+                <div>
+                    <p>I am a Full Stack Developer and Tech Lead with experience building scalable web applications, CRM
+                        systems, vendor management platforms, and on-demand service marketplaces. I specialize in React,
+                        Next.js, Node.js, Express, MongoDB, Django, and cloud deployment.</p>
+                    <p>2+ years of experience</p>
+                    <p>I am currently working in Revive Venture Pvt. Ltd.</p>
+                    <p>Leadership Experience</p>
+                </div>
+            </div>
+            <div>
+                <img src="Images/my_pic.jpg" alt="my-pic" height="250px">
+            </div>
         </section>
 
         <!-- Section 3 Tech Stack -->
         <section>
-            <header>
-                <h2>Tech Stack</h2>
-            </header>
             <div>
+                <header>
+                    <h2>Tech Stack</h2>
+                </header>
                 Frontend
                 <ul>
                     <li>HTML</li>
@@ -114,10 +118,10 @@
 
         <!-- Section 3 Projects -->
         <section>
-            <header>
-                <h2>Featured Projects</h2>
-            </header>
             <div>
+                <header>
+                    <h2>Featured Projects</h2>
+                </header>
                 <span>Project 1: <a href="https://fixify.in/">Fixify</a></span>
                 <!-- Image needs to be added -->
                 <p>
@@ -170,10 +174,10 @@
 
         <!-- Section 4 Experience -->
         <section>
-            <header>
-                <h2>Work Experience</h2>
-            </header>
             <div>
+                <header>
+                    <h2>Work Experience</h2>
+                </header>
                 <span>Software Engineer</span>
                 <p>Revive Venture Pvt. Ltd.</p>
                 <p>2024 - Present</p>
@@ -190,10 +194,10 @@
 
         <!-- Section 5 Achievements -->
         <section>
-            <header>
-                <h2>Achievements</h2>
-            </header>
             <div>
+                <header>
+                    <h2>Achievements</h2>
+                </header>
                 <ul>
                     <li>Built CRM from Scratch</li>
                     <li>Built Fixify platform from Scratch</li>
@@ -206,10 +210,10 @@
 
         <!-- Section 6 Services -->
         <section>
-            <header>
-                <h2>Services</h2>
-            </header>
             <div>
+                <header>
+                    <h2>Services</h2>
+                </header>
                 <ul>
                     <li>Full Stack Development</li>
                     <li>React Development</li>
@@ -223,10 +227,10 @@
 
         <!-- Section 7 Contact Us -->
         <section>
-            <header>
-                <h2>Contact</h2>
-            </header>
             <div>
+                <header>
+                    <h2>Contact</h2>
+                </header>
                 Email
                 Phone
                 LinkedIn

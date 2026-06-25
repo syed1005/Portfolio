@@ -4,7 +4,7 @@
     --primary: #6366F1;
     --accent: #8B5CF6;
     --text: #fff;
-    --radius: 14px;
+    --radius: 50px;
     font-family: sans-serif;
 }
 
@@ -23,9 +23,17 @@ a {
 button {
     border-radius: var(--radius);
     cursor: pointer;
+    padding: 0.5rem 1rem;
 }
 
 section {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    margin: 20px;
+    padding: 20px;
+}
+
+.container {
+    margin: 20px 200px;
+    padding: 10px 50px;
 }
