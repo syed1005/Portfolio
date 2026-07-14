@@ -1,0 +1,331 @@
+========== HEADER & NAV ==========
+
+✅ .nav__logo
+Syed Faraz
+
+✅ .nav__link
+Home - Projects - Services - Skills - Contact
+
+
+========== HOME SECTION ==========
+
+✅ .home__subtitle
+Hi! I'm Syed Faraz — Software Engineer based in Kolkata, India
+
+✅ .home__title
+Building Scalable <br>
+<span id="home-typed">Software Solutions</span>
+
+✅ .home__description
+I design and develop scalable web applications, modern user interfaces,
+and reliable backend systems that solve real-world business problems.
+
+✅ .home__text
+BUILD - INNOVATE - DELIVER -
+
+***** HOME TEXT CIRCULAR JS COMMENTS *****
+// Converts text into an array of characters
+
+// Angle for each character; length counts the number of characters
+
+// Clears the original content
+
+// Iterates through each character
+
+// Creates a <span> for each letter
+
+// Inserts each character into the span
+
+// Rotates each letter based on its index to form the circle
+
+// Appends the span to the main container
+
+***** HOME TYPED JS COMMENTS *****
+// Insert professions
+
+Software Engineer
+Full Stack Developer
+MERN Stack Developer
+Next.js Developer
+Frontend Engineer
+Backend Developer
+
+
+========== ABOUT SECTION ==========
+
+✅ .about__title
+About Me: Passionate <span>Software Engineer</span> specializing in
+<span>Full-Stack Development</span>, building scalable applications with
+modern technologies.
+
+✅ .about__description
+I enjoy transforming ideas into powerful digital products using modern
+web technologies. From responsive frontends to secure backend APIs,
+I focus on writing clean, efficient, and maintainable code that delivers
+real business value.
+
+✅ .about__button
+Let's Connect
+
+
+========== PROJECTS SECTION ==========
+
+✅ .section__title
+Featured <span>Projects</span>
+
+✅ .work__number        ✅ .work__name
+
+01
+Fixify - Device Repair Platform
+
+02
+Fixify CRM System
+
+03
+Vendor Management System
+
+04
+Personal Portfolio Website
+
+05
+Business Management Dashboard
+
+✅ .work__description
+Developed scalable web applications using Next.js, React, Node.js,
+Express.js, MongoDB, MySQL, REST APIs, Socket.io, Tailwind CSS,
+Material UI, and modern cloud deployment platforms.
+
+
+========== SERVICES SECTION ==========
+
+✅ .section__title
+<span>My</span> Services
+
+✅ .services__name
+
+Full Stack Development
+Frontend Development
+Backend Development
+API Development
+Database Design
+Performance Optimization
+
+✅ .services__description
+I build scalable, secure, and high-performance web applications,
+helping startups and businesses transform ideas into production-ready
+software solutions.
+
+✅ .services__item
+
+Full Stack Development
+React & Next.js
+Node.js & Express
+REST API Development
+MongoDB & MySQL
+Authentication & Security
+Real-time Applications
+Performance Optimization
+Responsive UI Development
+Deployment & Maintenance
+
+***** SERVICES ACCORDION JS COMMENTS *****
+// It iterates over each button found
+
+// Get the class of the clicked button (.services__card) and ⬇
+
+// Check already has the services-open class (Returns true or false)
+
+// Close all other services data
+
+// If the clicked card was closed, it opens it
+
+
+========== SKILLS SECTION ==========
+
+✅ .section__title
+Technical <span>Skills</span>
+
+✅ .skills__description
+My expertise comes from building real-world software products,
+continuous learning, and solving practical engineering challenges.
+
+✅ .skills__title        ✅ .skills__item
+
+Frontend
+  HTML5
+  CSS3
+  JavaScript (ES6+)
+  TypeScript
+  React.js
+  Next.js
+  Redux Toolkit
+  Tailwind CSS
+  Material UI
+  Bootstrap
+  Framer Motion
+
+Backend
+  Node.js
+  Express.js
+  REST APIs
+  Socket.io
+  JWT Authentication
+  OAuth
+  MongoDB
+  MySQL
+  Firebase
+  Cloudinary
+
+Tools & Technologies
+  Git
+  GitHub
+  VS Code
+  Postman
+  Docker
+  Vercel
+  Netlify
+  Render
+  Figma
+  Jira
+
+/* More icons */
+More icons at https://svgl.app/ - https://svglogos.dev/
+
+
+========== TESTIMONIALS SECTION ==========
+
+✅ .section__title
+Client <span>Feedback</span>
+
+✅ .testimonials__number
+5.0
+
+✅ .testimonials__description
+"Faraz consistently delivers clean, scalable, and well-structured
+software solutions. His technical expertise, communication, and
+commitment to quality make him an excellent software engineer."
+
+✅ .testimonials__name
+Client One
+Startup Founder
+Project Manager
+Business Owner
+
+***** TESTIMONIALS CARDS JS COMMENTS *****
+// Get all testimonial sliders
+
+// Get the child testimonial sliders and create a copy of all cards
+
+// (... spread operator), converts the collection into an array
+
+// Get all the testimonial sliders
+
+// Duplicate the card and append it at the end
+
+
+========== CONTACT SECTION ==========
+
+✅ .section__title
+Let's <span>Connect</span>
+
+✅ .contact__label
+Name
+Email
+Project Details
+
+✅ .contact__button
+Send Message
+
+✅ .contact__title        ✅ .contact__address
+
+Email
+  yourname@email.com
+
+Phone
+  +91 XXXXX XXXXX
+
+Location
+  Kolkata, West Bengal, India
+
+<!-- Insert your location in Google Maps (https://www.google.com/maps) -->
+<!-- Share -> Copy link -->
+
+***** CONTACT JS COMMENTS *****
+
+The code for sending emails is a sample test.
+
+Create your account at https://www.emailjs.com/
+and follow the instructions in the video and images
+to send emails with your account.
+
+// Prevent the page from reloading
+
+// serviceID - templateID - #form - publicKey
+
+// Show sent message
+Message sent successfully ✅
+
+// Clear input fields
+
+// Show error message
+Message not sent (service error) ❌
+
+// Remove message after five seconds
+
+Subject *
+New Project Inquiry from {{user_name}}
+
+Content *
+
+Name: {{user_name}}
+
+Email: {{user_email}}
+
+Project Details:
+{{user_message}}
+
+Looking forward to connecting.
+
+Best Regards,
+Syed Faraz
+
+
+========== FOOTER ==========
+
+✅ .footer__title
+LET'S BUILD MODERN SOFTWARE SOLUTIONS
+TOGETHER.
+
+✅ .footer__links
+Projects - Services - Skills - Contact
+
+LinkedIn
+GitHub
+Portfolio
+Instagram
+
+✅ .footer__copy
+&#169; 2026 Syed Faraz. All Rights Reserved.
+
+***** CUSTOM CURSOR JS COMMENTS *****
+// Store mouse position
+
+// Horizontal position (X-axis)
+
+// Vertical position (Y-axis)
+
+// Centers the element at the pointer
+
+// Repeats the function with each movement
+
+// Detects mouse movement and updates positions
+
+// Save position X
+
+// Save position Y
+
+/* Hide custom cursor on links */
+
+// Mouse enters the link and hides the cursor
+
+// Mouse exits the link and shows the cursor
